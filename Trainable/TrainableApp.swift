@@ -11,7 +11,7 @@ import SwiftUI
 struct TrainableApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView()
         }
     }
 }

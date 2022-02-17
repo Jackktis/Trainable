@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct TabView: View {
+struct TabNavView: View {
     var body: some View {
-        TabView{
+        TabView {
             CategoryView()
                 .tabItem{
                     Image(systemName: "1.squar.fill")
@@ -21,6 +21,6 @@ struct TabView: View {
 
 struct TabView_Previews: PreviewProvider {
     static var previews: some View {
-        TabView()
+        TabNavView()
     }
 }

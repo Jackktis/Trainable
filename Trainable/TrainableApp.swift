@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct TrainableApp: App {
+    @StateObject private var categories = StrengthCategories(title: <#String#>, name: <#String#>, image: <#String#>, exercisesList: <#[String]#>)
     var body: some Scene {
         WindowGroup {
             TabNavView()

@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "10-Yoga-Workouts-For-Beginners-To-Improve-Balance-1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "10-Yoga-Workouts-For-Beginners-To-Improve-Balance-2.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "10-Yoga-Workouts-For-Beginners-To-Improve-Balance-3.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "auto-scaling" : "auto"
+  }
+}

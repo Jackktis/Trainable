@@ -1,0 +1,37 @@
+{
+  "images" : [
+    {
+      "filename" : "happy-6-ollockvpfxbo7h9konekje2xasf28i9cx6zvwwal8w.png",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 500,
+          "left" : 949,
+          "right" : 950,
+          "top" : 499
+        },
+        "center" : {
+          "height" : 1,
+          "mode" : "tile",
+          "width" : 1
+        },
+        "mode" : "9-part"
+      },
+      "scale" : "1x"
+    },
+    {
+      "filename" : "happy-6-ollockvpfxbo7h9konekje2xasf28i9cx6zvwwal8w-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "happy-6-ollockvpfxbo7h9konekje2xasf28i9cx6zvwwal8w-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

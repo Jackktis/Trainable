@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "image 7-2.png",
+      "filename" : "healthy-snacks-800x600-1.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "image 7-1.png",
+      "filename" : "healthy-snacks-800x600-2.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "image 7.png",
+      "filename" : "healthy-snacks-800x600-3.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

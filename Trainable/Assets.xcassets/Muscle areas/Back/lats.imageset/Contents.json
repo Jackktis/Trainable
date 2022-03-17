@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "image 45-2.svg",
+      "filename" : "lats.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "image 45.svg",
+      "filename" : "lats-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "image 45-1.svg",
+      "filename" : "lats-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

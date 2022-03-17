@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "image 50-2.svg",
+      "filename" : "claves.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "image 50-1.svg",
+      "filename" : "claves-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "image 50.svg",
+      "filename" : "claves-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

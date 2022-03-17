@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "image 48-2.svg",
+      "filename" : "glutes.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "image 48-1.svg",
+      "filename" : "glutes-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "image 48.svg",
+      "filename" : "glutes-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

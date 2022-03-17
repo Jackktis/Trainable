@@ -17,7 +17,7 @@ struct FoodCategoriesView: View {
                             .frame(maxWidth: .infinity)
                             .frame(height: 165)
                             .cornerRadius(8)
-                    Text("Veggie").textModifier()
+                    Text("Veggie").textWorkOutModifier()
                 }.accessibilityLabel("Veggie Dishes")
                 
                 ZStack {
@@ -26,7 +26,7 @@ struct FoodCategoriesView: View {
                         .frame(maxWidth: .infinity)
                         .frame(height: 165)
                         .cornerRadius(8)
-                    Text("Meat").textModifier()
+                    Text("Meat").textWorkOutModifier()
                 }.accessibilityLabel("Meat Dishes")
                 
                 ZStack {
@@ -35,7 +35,7 @@ struct FoodCategoriesView: View {
                         .frame(maxWidth: .infinity)
                         .frame(height: 165)
                         .cornerRadius(8)
-                    Text("Proteins").textModifier()
+                    Text("Proteins").textWorkOutModifier()
                 }.accessibilityLabel("Protein")
                 
                 ZStack {
@@ -44,7 +44,7 @@ struct FoodCategoriesView: View {
                         .frame(maxWidth: .infinity)
                         .frame(height: 165)
                         .cornerRadius(8)
-                    Text("Snacks").textModifier()
+                    Text("Snacks").textWorkOutModifier()
                 }.accessibilityLabel("Snacks")
                 
             }.padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))

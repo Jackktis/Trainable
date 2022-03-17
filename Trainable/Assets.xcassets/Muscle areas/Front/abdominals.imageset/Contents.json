@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "image 30(2)-2.svg",
+      "filename" : "abdominals.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "image 30(2)-1.svg",
+      "filename" : "abdominals-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "image 30(2).svg",
+      "filename" : "abdominals-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

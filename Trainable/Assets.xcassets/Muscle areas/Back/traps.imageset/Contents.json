@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "image 39-1.svg",
+      "filename" : "traps.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "image 39.svg",
+      "filename" : "traps-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "image 39-2.svg",
+      "filename" : "traps-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ExerciseModel: Identifiable, Codable{
+struct ExerciseModel: Identifiable{
     let id: String
     var bodyRegion: String
     var exercisesName: String
@@ -30,6 +30,9 @@ struct ExerciseModel: Identifiable, Codable{
         self.description = description
         }
 }
+
+extension ExerciseModel: Codable{}
+
 extension ExerciseModel {
     static let sampleData: [ExerciseModel] =
     [

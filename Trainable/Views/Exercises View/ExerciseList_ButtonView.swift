@@ -19,7 +19,7 @@ struct ExerciseList_ButtonView: View {
                 ProgressView()
             }
             //make the image flexible
-            .frame(minWidth: 0, maxWidth: 400,minHeight:400, maxHeight: 400 )
+            .frame(minWidth: 0, maxWidth: .infinity,minHeight:300, maxHeight: 300 )
             VStack{
                 Text(exercises.exercisesName)
                     .BodyRegionTextModifier()

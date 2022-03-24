@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BodyRegionsListView: View {
-    @State var bodyRegions = Bundle.main.decode([StrengthCategoryModel].self, from: "StrengthBodyRegions.json")
+    var bodyRegions = Bundle.main.decode([StrengthCategoryModel].self, from: "StrengthBodyRegions.json")
     
     var ButtonsInCol: [GridItem]{
         Array(repeating: .init(.flexible()), count:2)
@@ -23,7 +23,7 @@ struct BodyRegionsListView: View {
                     Spacer()
                 }){
                     LazyVGrid(columns: ButtonsInCol, spacing: 20){
-                        ForEach($bodyRegions, id: \.id){ $category in
+                        ForEach(bodyRegions, id: \.id){ category in
                         if(category.title == "Front"){
                             NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion)){
                             bodyRegions_ButtonView(category: category)
@@ -40,7 +40,7 @@ struct BodyRegionsListView: View {
                     Spacer()
                 }){
                     LazyVGrid(columns: ButtonsInCol, spacing: 20){
-                        ForEach($bodyRegions, id: \.id){ $category in
+                        ForEach(bodyRegions, id: \.id){ category in
                         if(category.title == "Back"){
                             NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion)){
                             bodyRegions_ButtonView(category: category)
@@ -58,7 +58,7 @@ struct BodyRegionsListView: View {
                     Spacer()
             }){
                     LazyVGrid(columns: ButtonsInCol, spacing: 20){
-                        ForEach($bodyRegions, id: \.id){ $category in
+                        ForEach(bodyRegions, id: \.id){ category in
                         if(category.title == "Legs"){
                             NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion)){
                             bodyRegions_ButtonView(category: category)

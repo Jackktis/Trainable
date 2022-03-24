@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TrainableApp: App {
     // her var tanken at state Exercises så det kunne bruges af hver child.
-    //@StateObject var exercise = ExerciseModel()
+
     var body: some Scene {
         
         WindowGroup {

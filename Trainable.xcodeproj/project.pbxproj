@@ -13,7 +13,6 @@
 		5A34AE5F27DA5153000842B9 /* StrengthBodyRegions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A34AE5E27DA5153000842B9 /* StrengthBodyRegions.json */; };
 		5A34AE6227DA6902000842B9 /* JsonBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34AE6127DA6902000842B9 /* JsonBundle.swift */; };
 		5A34AE6427DA695B000842B9 /* UIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34AE6327DA695B000842B9 /* UIFunctions.swift */; };
-		5A449DEF27E939ED00DCA3AD /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A449DEE27E939ED00DCA3AD /* Photo.swift */; };
 		5A624C0627E164A80024899E /* WorkOutExercises.json in Sources */ = {isa = PBXBuildFile; fileRef = 5A624C0527E164A80024899E /* WorkOutExercises.json */; };
 		5A6A713527C90980003EB4CF /* StrengthCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A713427C90980003EB4CF /* StrengthCategoryModel.swift */; };
 		5A70BF1D27C017FF00B3306D /* BodyRegionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70BF1C27C017FF00B3306D /* BodyRegionsListView.swift */; };
@@ -37,7 +36,6 @@
 		5A34AE5E27DA5153000842B9 /* StrengthBodyRegions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StrengthBodyRegions.json; sourceTree = "<group>"; };
 		5A34AE6127DA6902000842B9 /* JsonBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonBundle.swift; sourceTree = "<group>"; };
 		5A34AE6327DA695B000842B9 /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctions.swift; sourceTree = "<group>"; };
-		5A449DEE27E939ED00DCA3AD /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		5A624C0527E164A80024899E /* WorkOutExercises.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WorkOutExercises.json; sourceTree = "<group>"; };
 		5A6A713427C90980003EB4CF /* StrengthCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthCategoryModel.swift; sourceTree = "<group>"; };
 		5A70BF1C27C017FF00B3306D /* BodyRegionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyRegionsListView.swift; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 			children = (
 				5A6A713427C90980003EB4CF /* StrengthCategoryModel.swift */,
 				5A34AE5B27DA4E3D000842B9 /* ExerciseModel.swift */,
-				5A449DEE27E939ED00DCA3AD /* Photo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,7 +248,6 @@
 				5AA3BCFA27BE770900B86994 /* TabNavView.swift in Sources */,
 				5AA3BCFE27BEB4B000B86994 /* LogView.swift in Sources */,
 				5AA3BCE827BE730100B86994 /* TrainableApp.swift in Sources */,
-				5A449DEF27E939ED00DCA3AD /* Photo.swift in Sources */,
 				5A34AE5C27DA4E3D000842B9 /* ExerciseModel.swift in Sources */,
 				5AC9E0D127E7829A0004324F /* ExerciseList_ButtonView.swift in Sources */,
 				5A34AE6227DA6902000842B9 /* JsonBundle.swift in Sources */,

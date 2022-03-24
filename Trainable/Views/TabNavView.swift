@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct TabNavView: View {
+    @State private var selection = 3
     var body: some View {
-        TabView {
+        TabView(selection: $selection) {
             //----------------- Food Categories -------------
             NavigationView{
             FoodCategoriesView()
@@ -19,6 +20,7 @@ struct TabNavView: View {
                         .font(.system(size:25, weight: .ultraLight))
                     Text("Food")
                 }.accessibilityLabel("Food")
+                .tag(1)
             //----------------------- Log -------------------
             NavigationView{
             LogView()
@@ -28,6 +30,7 @@ struct TabNavView: View {
                         .font(.system(size:25, weight: .ultraLight))
                     Text("Log")
                 }.accessibilityLabel("Log")
+                .tag(2)
             //--------------- WorkOut Categories -------------
             NavigationView{
                 WorkOutCategoriesView()
@@ -37,6 +40,7 @@ struct TabNavView: View {
                         .font(.system(size:25))
                     Text("Exercises")
                 }.accessibilityLabel("Exercises")
+                .tag(3)
             //--------------------- Timer ---------------------
             NavigationView{
             TimerView()
@@ -46,6 +50,7 @@ struct TabNavView: View {
                         .font(.system(size:25, weight: .ultraLight))
                     Text("Timer")
                 }.accessibilityLabel("Timer")
+                .tag(4)
             //---------------- Exercises Ideas -----------------
             NavigationView{
             ExercisesIdeaView()
@@ -55,6 +60,7 @@ struct TabNavView: View {
                         .font(.system(size: 34))
                     Text("Ideas")
                 }.accessibilityLabel("Ideas")
+                .tag(5)
         }.accentColor(Color("FeldGrau"))
     }
 }

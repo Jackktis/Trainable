@@ -78,7 +78,7 @@
             "maxRepetitions": "0",
             "imageUrl": "https://mybodyweightexercises.com/wp-content/uploads/2021/09/bent-over-rows-muscles-worked.jpg",
             "videoUrl": "https://www.youtube.com/watch?v=vzMDGeH5lCY",
-            "description" : " 1. Grab a barbell with both hands using an underhand grip at shoulder width \n 2. Bend and the knees and hinge forward at the hips at 45 degrees \n 3. Your arms should be almost fully extended with the bar over your thighs \n 4. Pull the bar up to your waist \5. Briefly pause at the top then slowly return to starting position"
+            "description" : " 1. Grab a barbell with both hands using an underhand grip at shoulder width \n 2. Bend and the knees and hinge forward at the hips at 45 degrees \n 3. Your arms should be almost fully extended with the bar over your thighs \n 4. Pull the bar up to your waist \n 5. Briefly pause at the top then slowly return to starting position"
         },
         {
             "id": "9",
@@ -121,13 +121,14 @@
             "description" : " 1. Grab a dumbbell with a neutral grip with your right hand then place your right knee and right hand under your shoulder on a bench. Hold the dumbbell with your left arm straight directly under your left shoulder. \n 2. Pull the dumbbell upwards, bending at the elbow and keeping your arm close to your body until the dumbbell is next to your hip \n 3. Slowly lower to starting position"
         },
         {
-            "id": "12",
+            "id": "13",
             "bodyRegion": "Lats",
             "exercisesName": "Cable Supine Reverse Fly",
             "maxWeight" : "0",
             "maxRepetitions": "0",
             "imageUrl": "https://i.pinimg.com/originals/90/16/b8/9016b8476acd327cecdb20e84c27910c.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=keVMaHL8ME0",
             "description" : " 1. Sit on a bench with your knees bent then reach forward and grab the triangle handle \n 2. Pull the handle back towards your navel keeping your back straight and squeezing your shoulder blades together \n 3. Slowly return to starting position"
-        },
+        }
         
 ]

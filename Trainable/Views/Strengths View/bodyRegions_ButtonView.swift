@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct bodyRegions_ButtonView: View {
-    var category: StrengthCategory
+    var category: StrengthCategoryModel
     var body: some View {
         VStack{
             VStack(alignment:.center){
@@ -33,10 +33,10 @@ struct bodyRegions_ButtonView: View {
 }
 
 struct button2try_Previews: PreviewProvider {
-        static let category = StrengthCategory(id: "1", title: "Front", bodyRegion: "Delts & Shoulders", bodyRegionImage: "Delts & Shoulders - front")
-        static var previews: some View {
-            bodyRegions_ButtonView(category: category)
-               }
+    static let category = StrengthCategoryModel(id: "1", title: "Front", bodyRegion: "Delts & Shoulders", bodyRegionImage: "Delts & Shoulders - front")
+    static var previews: some View {
+        bodyRegions_ButtonView(category: category)
+           }
     
 }
 }

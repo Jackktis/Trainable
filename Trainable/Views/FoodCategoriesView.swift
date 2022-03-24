@@ -47,7 +47,7 @@ struct FoodCategoriesView: View {
                     Text("Snacks").textWorkOutModifier()
                 }.accessibilityLabel("Snacks")
                 
-            }.padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
+            }.padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             .shadow(color: .black, radius: 2, x: 0, y: 2)
             
         }.navigationTitle("Food Categories")

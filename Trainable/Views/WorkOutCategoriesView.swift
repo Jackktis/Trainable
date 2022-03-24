@@ -12,7 +12,7 @@ struct WorkOutCategoriesView: View {
         ScrollView{
             //Categories ----------------------------------------
             VStack(alignment: .center){
-                NavigationLink(destination: BodyRegionsView()){
+                NavigationLink(destination: BodyRegionsListView()){
                     ZStack {
                         Image("Strength").centerCropped()
                             .clipped()
@@ -50,7 +50,7 @@ struct WorkOutCategoriesView: View {
                         .textWorkOutModifier()
                 }.accessibilityLabel("Balance")
                 //Categories  ends -----------------------------------
-            }.padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
+            }.padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             .shadow(color: .black, radius: 2, x: 0, y: 2)
         }.navigationTitle("WorkOuts")
     }

@@ -9,7 +9,7 @@ import Foundation
 
 //
 // Identifiable - sørger for en stabil genkendelse til classen eller value type. Eks sørger for at et id ikke ændre sig
-struct StrengthCategory: Identifiable, Codable{
+struct StrengthCategoryModel: Identifiable, Codable{
     let id: String // universal unique key
     var title: String
     var bodyRegion: String

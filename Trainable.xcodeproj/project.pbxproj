@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0C47BD27EDB13C003CA803 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0C47BC27EDB13C003CA803 /* YouTubePlayerKit */; };
 		5A12558A27E359EE0066DBCA /* bodyRegions_ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A12558927E359EE0066DBCA /* bodyRegions_ButtonView.swift */; };
 		5A223F0E27E867F10020595D /* WorkOutExercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A624C0527E164A80024899E /* WorkOutExercises.json */; };
 		5A34AE5C27DA4E3D000842B9 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34AE5B27DA4E3D000842B9 /* ExerciseModel.swift */; };
 		5A34AE5F27DA5153000842B9 /* StrengthBodyRegions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A34AE5E27DA5153000842B9 /* StrengthBodyRegions.json */; };
 		5A34AE6227DA6902000842B9 /* JsonBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34AE6127DA6902000842B9 /* JsonBundle.swift */; };
 		5A34AE6427DA695B000842B9 /* UIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34AE6327DA695B000842B9 /* UIFunctions.swift */; };
+		5A614F8427EF2B45006FC375 /* YTPlayer_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A614F8327EF2B45006FC375 /* YTPlayer_view.swift */; };
+		5A614F8627EF2C48006FC375 /* AsyncImage_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A614F8527EF2C48006FC375 /* AsyncImage_view.swift */; };
+		5A614F8B27EF364E006FC375 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = 5A614F8A27EF364E006FC375 /* SwiftUIPager */; };
 		5A624C0627E164A80024899E /* WorkOutExercises.json in Sources */ = {isa = PBXBuildFile; fileRef = 5A624C0527E164A80024899E /* WorkOutExercises.json */; };
 		5A6A713527C90980003EB4CF /* StrengthCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A713427C90980003EB4CF /* StrengthCategoryModel.swift */; };
 		5A70BF1D27C017FF00B3306D /* BodyRegionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70BF1C27C017FF00B3306D /* BodyRegionsListView.swift */; };
@@ -36,6 +40,8 @@
 		5A34AE5E27DA5153000842B9 /* StrengthBodyRegions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StrengthBodyRegions.json; sourceTree = "<group>"; };
 		5A34AE6127DA6902000842B9 /* JsonBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonBundle.swift; sourceTree = "<group>"; };
 		5A34AE6327DA695B000842B9 /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctions.swift; sourceTree = "<group>"; };
+		5A614F8327EF2B45006FC375 /* YTPlayer_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPlayer_view.swift; sourceTree = "<group>"; };
+		5A614F8527EF2C48006FC375 /* AsyncImage_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage_view.swift; sourceTree = "<group>"; };
 		5A624C0527E164A80024899E /* WorkOutExercises.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WorkOutExercises.json; sourceTree = "<group>"; };
 		5A6A713427C90980003EB4CF /* StrengthCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthCategoryModel.swift; sourceTree = "<group>"; };
 		5A70BF1C27C017FF00B3306D /* BodyRegionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyRegionsListView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0C47BD27EDB13C003CA803 /* YouTubePlayerKit in Frameworks */,
+				5A614F8B27EF364E006FC375 /* SwiftUIPager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +97,8 @@
 				5ABCE94727CEC62800E4CA8D /* Exercise_DetailView.swift */,
 				5ABCE94327CEC5F100E4CA8D /* ExercisesListView.swift */,
 				5AC9E0D027E7829A0004324F /* ExerciseList_ButtonView.swift */,
+				5A614F8327EF2B45006FC375 /* YTPlayer_view.swift */,
+				5A614F8527EF2C48006FC375 /* AsyncImage_view.swift */,
 			);
 			path = "Exercises View";
 			sourceTree = "<group>";
@@ -180,6 +190,10 @@
 			dependencies = (
 			);
 			name = Trainable;
+			packageProductDependencies = (
+				5A0C47BC27EDB13C003CA803 /* YouTubePlayerKit */,
+				5A614F8A27EF364E006FC375 /* SwiftUIPager */,
+			);
 			productName = Trainable;
 			productReference = 5AA3BCE427BE730100B86994 /* Trainable.app */;
 			productType = "com.apple.product-type.application";
@@ -208,6 +222,10 @@
 				Base,
 			);
 			mainGroup = 5AA3BCDB27BE730100B86994;
+			packageReferences = (
+				5A0C47BB27EDB13C003CA803 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+				5A614F8927EF364E006FC375 /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+			);
 			productRefGroup = 5AA3BCE527BE730100B86994 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A614F8627EF2C48006FC375 /* AsyncImage_view.swift in Sources */,
 				5ABCE94427CEC5F100E4CA8D /* ExercisesListView.swift in Sources */,
 				5A6A713527C90980003EB4CF /* StrengthCategoryModel.swift in Sources */,
 				5AA3BD0027BEB4D100B86994 /* TimerView.swift in Sources */,
@@ -244,6 +263,7 @@
 				5A624C0627E164A80024899E /* WorkOutExercises.json in Sources */,
 				5A12558A27E359EE0066DBCA /* bodyRegions_ButtonView.swift in Sources */,
 				5AA3BCFC27BEA74400B86994 /* FoodCategoriesView.swift in Sources */,
+				5A614F8427EF2B45006FC375 /* YTPlayer_view.swift in Sources */,
 				5AA3BCEA27BE730100B86994 /* WorkOutCategoriesView.swift in Sources */,
 				5AA3BCFA27BE770900B86994 /* TabNavView.swift in Sources */,
 				5AA3BCFE27BEB4B000B86994 /* LogView.swift in Sources */,
@@ -455,6 +475,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A0C47BB27EDB13C003CA803 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		5A614F8927EF364E006FC375 /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A0C47BC27EDB13C003CA803 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0C47BB27EDB13C003CA803 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+		5A614F8A27EF364E006FC375 /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A614F8927EF364E006FC375 /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5AA3BCDC27BE730100B86994 /* Project object */;
 }

@@ -53,6 +53,8 @@ struct WorkOutCategoriesView: View {
             }.padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             .shadow(color: .black, radius: 2, x: 0, y: 2)
         }.navigationTitle("WorkOuts")
+        // for at sætte light shceme only
+        .preferredColorScheme(.light)
     }
 }
 

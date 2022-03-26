@@ -29,7 +29,7 @@ struct ExerciseList_ButtonView: View {
                 
             }
             .padding()
-            .background(Color("Atomic Tangerine"))
+            .background(Color("Pewter Blue"))
             
             
         }

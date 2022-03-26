@@ -6,27 +6,37 @@
 //
 
 import SwiftUI
+//https://github.com/fermoya/SwiftUIPager
+import SwiftUIPager
+import AVKit
 
 struct Exercise_DetailView: View {
     var exercise: ExerciseModel
+    
     @State private var maxWeight: Int = 0
     @State private var MaxRep: Int = 0
-    
+    @StateObject var page: Page = .first()
+    var items = Array(0..<2)
     
     var body: some View {
+        
         ScrollView(.vertical){
-            VStack(alignment: .center){
-                AsyncImage(url: URL(string: exercise.imageUrl)) { image in
-                    image
-                        .resizable()
-                        .scaledToFit()
-                } placeholder: {
-                    ProgressView()
-                }
-                //make the image flexible
-                .frame(minWidth: 0, maxWidth: .infinity,minHeight:300, maxHeight: 300 )
-                .shadow(color: .black, radius: 2, x: 0, y: 2)
-            }.padding()
+           
+        //-------------------------------------- Pager ----------------------------------------
+        Pager(page: page,
+              data: items,
+              id: \.self,
+              content: { index in
+            
+            YTPlayer_View(exerciseUrl: exercise.videoUrl)
+            AsyncImage_view(exercisesImageUrl: exercise.imageUrl)
+            }
+        ).frame(minWidth: 0, maxWidth: .infinity, minHeight: 300, maxHeight: 300, alignment: .center)
+            .shadow(color: .black, radius: 2, x: 0, y: 2)
+            
+        //--------------------------------- After Pager ----------------------------------------
+    
+            
             VStack(alignment: .leading){
                 HStack{
                     Text("Maximum weight:")
@@ -47,9 +57,22 @@ struct Exercise_DetailView: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                DisclosureGroup("Information") {
-                    Text(exercise.description)
-                }
+                VStack(alignment: .leading) {
+                                DisclosureGroup(
+                                    content: {
+                                        Text(exercise.description)
+                                    },
+                                    label: {
+                                        Text("information")
+                                            .bold()
+                                            .foregroundColor(Color.black)
+                                            
+                                    }
+                                ).padding()
+                }.overlay(RoundedRectangle(cornerRadius: 20)
+                        .stroke(Color("Pewter Blue"), lineWidth: 2))
+                    
+
             }.padding([.leading, .trailing], 20)
         }.navigationTitle(exercise.exercisesName)
     }

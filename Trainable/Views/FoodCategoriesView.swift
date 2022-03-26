@@ -51,8 +51,7 @@ struct FoodCategoriesView: View {
             .shadow(color: .black, radius: 2, x: 0, y: 2)
             
         }.navigationTitle("Food Categories")
-        // for at sætte light shceme only
-        .preferredColorScheme(.light)
+        
     }
 }
 

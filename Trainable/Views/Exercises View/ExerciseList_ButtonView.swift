@@ -41,7 +41,7 @@ struct ExerciseList_ButtonView: View {
     
     
     struct ExerciseList_ButtonView_Previews: PreviewProvider {
-        static let exercise = ExerciseModel(id: "1", bodyRegion: "Delts & Shoulders", exercisesName: "Arnold Press (Anterior)", maxWeight: "0", maxRepetitions: "0", imageUrl: "https://s35247.pcdn.co/wp-content/uploads/2018/09/3-2-800x600.png", videoUrl: "https://www.youtube.com/watch?v=mXRhpXwW-gs", description: " ")
+        static let exercise = ExerciseModel(id: "1", bodyRegion: "Delts & Shoulders", exercisesName: "Arnold Press (Anterior)", imageUrl: "https://s35247.pcdn.co/wp-content/uploads/2018/09/3-2-800x600.png", videoUrl: "https://www.youtube.com/watch?v=mXRhpXwW-gs", description: " ")
         static var previews: some View {
             ExerciseList_ButtonView(exercises: exercise)
                }

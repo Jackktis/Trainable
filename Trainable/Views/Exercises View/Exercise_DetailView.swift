@@ -32,27 +32,44 @@ struct Exercise_DetailView: View {
                     AsyncImage_view(exercisesImageUrl: exercise.imageUrl).tag(1)
                     }
                 ).frame(minWidth: 0, maxWidth: .infinity, minHeight: 300, maxHeight: 300, alignment: .center)
-                    .shadow(color: .black, radius: 2, x: 0, y: 2)
-            HStack(alignment: .center){
-                
+                    .background(Color.black)
+            
+            
+        //------------------------------------- Buttons ----------------------------------------
+            HStack{
                 Button(action: {page.update(.moveToFirst)}) {
-                    Text("Image").offset(y:10)
-                }.padding([.bottom, .trailing], 30)
-                .border(width: 1, edges: [.bottom, .trailing], color: Color("Pewter Blue"))
-                .accessibilityLabel("Image")
-                .frame(maxWidth: .infinity, alignment: .center)
-                
-                Button(action: {page.update(.moveToLast)}){
-                Text("Video").offset(y:10)
-                }.padding([.bottom, .trailing], 30)
-                .border(width: 1, edges: [.bottom,], color: Color("Pewter Blue"))
-                .accessibilityLabel("Video")
-                .frame(maxWidth: .infinity, alignment: .center)
-            }.offset(y:-12)
-            .padding(.bottom, 20)
+                    
+                    Text("Image")
+                        .bold()
+                        .foregroundColor(.black)
+                        .offset(y:5)
+                        .frame( maxWidth: .infinity,maxHeight: 20)
+                }.padding(.bottom)
+                    .frame(maxWidth: .infinity)
+                    .border(width: 1, edges: [.bottom,.trailing], color: Color("Oxford Blue"))
+                    .background(Color("Peach"))
                 
             
-        //--------------------------------- After Pager ----------------------------------------
+                
+                Button(action: {page.update(.moveToLast)}) {
+                    Text("Video")
+                        .bold()
+                        .foregroundColor(.black)
+                        .offset(y:5)
+                        .frame( maxWidth: .infinity,maxHeight: 20)
+                }.padding(.bottom)
+                    .frame( maxWidth: .infinity)
+                .border(width: 1, edges: [.bottom,.leading], color: Color("Oxford Blue"))
+                .background(Color("Peach"))
+                
+                
+                
+
+            }.offset(y:-8)
+                .padding(.bottom, 20)
+            
+            
+            //------------------------------ After Buttons ---------------------------------------
     
             
             VStack(alignment: .leading){
@@ -84,11 +101,14 @@ struct Exercise_DetailView: View {
                                         Text("information")
                                             .bold()
                                             .foregroundColor(Color.black)
-                                            
                                     }
+                                        
                                 ).padding()
-                }.overlay(RoundedRectangle(cornerRadius: 20)
-                        .stroke(Color("Pewter Blue"), lineWidth: 2))
+                }
+                .overlay(RoundedRectangle(cornerRadius: 20)
+                    .stroke(Color("Oxford Blue"), lineWidth: 2))
+                .background(RoundedRectangle(cornerRadius: 20).fill(Color("Peach")))
+                
                     
 
             }.padding([.leading, .trailing], 20)

@@ -22,17 +22,35 @@ struct Exercise_DetailView: View {
         
         ScrollView(.vertical){
            
-        //-------------------------------------- Pager ----------------------------------------
-        Pager(page: page,
-              data: items,
-              id: \.self,
-              content: { index in
             
-            YTPlayer_View(exerciseUrl: exercise.videoUrl)
-            AsyncImage_view(exercisesImageUrl: exercise.imageUrl)
-            }
-        ).frame(minWidth: 0, maxWidth: .infinity, minHeight: 300, maxHeight: 300, alignment: .center)
-            .shadow(color: .black, radius: 2, x: 0, y: 2)
+                Pager(page: page,
+                      data: items,
+                      id: \.self,
+                      content: { index in
+                    
+                    YTPlayer_View(exerciseUrl: exercise.videoUrl).tag(2)
+                    AsyncImage_view(exercisesImageUrl: exercise.imageUrl).tag(1)
+                    }
+                ).frame(minWidth: 0, maxWidth: .infinity, minHeight: 300, maxHeight: 300, alignment: .center)
+                    .shadow(color: .black, radius: 2, x: 0, y: 2)
+            HStack(alignment: .center){
+                
+                Button(action: {page.update(.moveToFirst)}) {
+                    Text("Image").offset(y:10)
+                }.padding([.bottom, .trailing], 30)
+                .border(width: 1, edges: [.bottom, .trailing], color: Color("Pewter Blue"))
+                .accessibilityLabel("Image")
+                .frame(maxWidth: .infinity, alignment: .center)
+                
+                Button(action: {page.update(.moveToLast)}){
+                Text("Video").offset(y:10)
+                }.padding([.bottom, .trailing], 30)
+                .border(width: 1, edges: [.bottom,], color: Color("Pewter Blue"))
+                .accessibilityLabel("Video")
+                .frame(maxWidth: .infinity, alignment: .center)
+            }.offset(y:-12)
+            .padding(.bottom, 20)
+                
             
         //--------------------------------- After Pager ----------------------------------------
     
@@ -55,7 +73,7 @@ struct Exercise_DetailView: View {
                         .frame(width: 150)
                         .textFieldStyle(.roundedBorder)
                         .multilineTextAlignment(.center)
-                }
+                }.padding(.bottom, 20)
                 
                 VStack(alignment: .leading) {
                                 DisclosureGroup(

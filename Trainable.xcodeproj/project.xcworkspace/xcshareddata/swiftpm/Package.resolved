@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuipager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fermoya/SwiftUIPager.git",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "30c9a68b909e3c930eb74c3294c63512712c2beb"
+      }
+    },
+    {
+      "identity" : "youtubeplayerkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SvenTiigi/YouTubePlayerKit.git",
+      "state" : {
+        "revision" : "1f78a2121f58b393bca54bc0a8da9e9b11cab198",
+        "version" : "1.1.9"
+      }
+    }
+  ],
+  "version" : 2
+}

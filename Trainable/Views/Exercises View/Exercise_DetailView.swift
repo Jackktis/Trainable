@@ -22,7 +22,7 @@ struct Exercise_DetailView: View {
         
         ScrollView(.vertical){
            
-            
+            // Pager package
                 Pager(page: page,
                       data: items,
                       id: \.self,

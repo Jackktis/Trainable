@@ -43,7 +43,7 @@
         {
             "id": "6",
             "bodyRegion": "Lats",
-            "exercisesName": "Straight-arm Lat Pulldown",
+            "exercisesName": "Dumbbell Pullover",
             "imageUrl": "https://www.inspireusafoundation.org/wp-content/uploads/2021/11/dumbbell-pullover-2048x1109.png",
             "videoUrl": "https://www.youtube.com/watch?v=5YStMv6m2g8",
             "description" : " 1. Lie across the bench with only your upper back and neck being supported by the bench \n\n 2. Hold dumbbell with both hands, forming a triangle with your hands or by gripping the inner plate \n\n 3. Hold the dumbbell directly above your chest with elbows bent slightly \n\n 4. Engage your core and slowly lower the dumbbell past your face and over your head as far as you can \n 5. Pull the dumbbell back over your face to starting position"
@@ -103,6 +103,205 @@
             "imageUrl": "https://i.pinimg.com/originals/90/16/b8/9016b8476acd327cecdb20e84c27910c.jpg",
             "videoUrl": "https://www.youtube.com/watch?v=keVMaHL8ME0",
             "description" : " 1. Sit on a bench with your knees bent then reach forward and grab the triangle handle \n\n 2. Pull the handle back towards your navel keeping your back straight and squeezing your shoulder blades together \n\n 3. Slowly return to starting position"
+        },
+        {
+            "id": "14",
+            "bodyRegion": "Traps",
+            "exercisesName": "Trap Bar Shrug",
+            "imageUrl": "https://www.burnthefatinnercircle.com/members/images/2171c.jpg?cb=20220105104837",
+            "videoUrl": "https://www.youtube.com/watch?v=C6sYjDFuq9I",
+            "description" : "Perform a standard deadlift with the trap bar to begin the exercise from a standing position. Once motionless, shrug the shoulders up and towards the ears. Focus on elevating your shoulders without rounding them forward. Once at the top, lower under control."
+        },
+        {
+            "id": "15",
+            "bodyRegion": "Traps",
+            "exercisesName": "Cable Shrug",
+            "imageUrl": "https://i0.wp.com/www.fitliferegime.com/wp-content/uploads/2022/04/Cable-Shrug.jpg?w=840&ssl=1",
+            "videoUrl": "https://www.youtube.com/watch?v=Wab3-dsZohU",
+            "description" : "Stand in front of a cable machine and grab the rope attachment with both hands and feet shoulder-width apart. Keep your shoulders down, chest up, and hold the rope with arms extended. Without using your arms, exhale and bring your shoulders towards your ears and then pull back slightly. Pause and slowly return to the starting position."
+        },
+        {
+            "id": "16",
+            "bodyRegion": "Traps",
+            "exercisesName": "Kirk Shrug",
+            "imageUrl": "https://live.staticflickr.com/4299/35914093176_8c44b13a00_z.jpg",
+            "videoUrl": "https://youtu.be/VfgRpBhiBLI",
+            "description" : "Assume a thumbless grip on the barbell and perform a standard shrug from a standing position. However, bend the elbows as you shrug as if you were doing the first half of an upright row. Hold the barbell around navel level for a moment if possible before lowering the weight to the starting position."
+        },
+        {
+            "id": "17",
+            "bodyRegion": "Traps",
+            "exercisesName": "Barbell Overhead Carry",
+            "imageUrl": "https://i.pinimg.com/originals/14/3c/77/143c77713c4b0524bfe5773a818ae23a.jpg",
+            "videoUrl": "https://youtu.be/8Wu6rNlmSoU",
+            "description" : "Set a bar at chest height in a power rack and unrack it. Perform a press, push press, or jerk to secure the barbell overhead. While keeping the barbell fixed above your head with locked arms, take small and controlled steps for distance or time."
+        },
+        {
+            "id": "18",
+            "bodyRegion": "Traps",
+            "exercisesName": "Farmer’s Carry",
+            "imageUrl": "https://weighttraining.guide/wp-content/uploads/2021/04/Dumbbell-farmers-walk-2.png",
+            "videoUrl": "https://youtu.be/rt17lmnaLSM",
+            "description" : "With a dumbbell in each hand — consider using straps if you aren’t concerned with grip strength — take steady, controlled steps in a straight line. Walk with an upright posture and don’t allow your body to list to one side or meander off your intended line. Let the shoulders hang away from the ears."
+        },
+        {
+            "id": "19",
+            "bodyRegion": "Traps",
+            "exercisesName": "Dombbell Rows",
+            "imageUrl": "https://i.pinimg.com/originals/42/ba/3f/42ba3fde9e7f9b31f958d0c39db407fc.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=roCP6wCXPqo",
+            "description" : " 1. Grab a dumbbell with a neutral grip with your right hand then place your right knee and right hand under your shoulder on a bench. Hold the dumbbell with your left arm straight directly under your left shoulder. \n\n 2. Pull the dumbbell upwards, bending at the elbow and keeping your arm close to your body until the dumbbell is next to your hip \n\n 3. Slowly lower to starting position"
+        },
+        {
+            "id": "20",
+            "bodyRegion": "Traps",
+            "exercisesName": " Rack Pull",
+            "imageUrl": "https://weighttraining.guide/wp-content/uploads/2016/12/rack-pull-resized.png",
+            "videoUrl": "https://youtu.be/EAcUmuTr7Zs",
+            "description" : "While standing in a power rack, set the safety bars to around knee height. With your core tight and spine neutral, hinge at the hip, grab the bar, and then pull the barbell to lockout. Slowly lower the weight to the starting position, resisting the pull of the weight on the way down."
+        },
+        {
+            "id": "21",
+            "bodyRegion": "Traps",
+            "exercisesName": "Seated Dumbbell Lateral Raise",
+            "imageUrl": "https://fitnessvolt.com/wp-content/uploads/2019/04/seated-dumbbell-lateral-raise-750x474.jpg",
+            "videoUrl": "https://youtu.be/v_ZkxWzYnMc",
+            "description" : "Stand tall with a dumbbell in each hand and arms at your sides, palms facing in. Position your feet roughly shoulder-width apart. Raise your arms and lift the dumbbells up and out to each side, stopping when your elbows reach around shoulder-height. Pause and hold for a second at the top of the movement. Control the weight as you return to the starting position."
+        },
+        {
+            "id": "22",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Close-Grip Bench Press",
+            "imageUrl": "https://thumbs.dreamstime.com/b/exercising-close-grip-barbell-bench-press-target-muscles-marked-red-initial-final-steps-67126548.jpg",
+            "videoUrl": "https://youtu.be/cXbSJHtjrQQ",
+            "description" : "Not only does this tricep exercise work on the targeted area, but it will also improve upon your chest and core. To execute, perform the following steps: \n\n 1. Grab a barbell with an overhand grip, keeping your index fingers on the inside edge of the knurling (i.e. the rough and textural part of the bar) \n\n 2. Slightly arch your back to create minor space between your lower back and the bench.\n\n 3. Life the bar off the rack and hold it above your sternum, keeping your arms completely straight and your elbows tucked at 45-degree angles on either side. \n\n 4. Lower the bar until it lightly touches your body, pause, and then drive through at your feet as you press the bar upward. \n\n 5. For the last set, consider reducing the weight and then increasing the number of reps, pushing yourself to failure."
+        },
+        {
+            "id": "23",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Cable Rope Tricep Pushdown",
+            "imageUrl": "https://gym.dromosys.com/media/exercise-images/390/Triceps-Rope-Push-down_1.png",
+            "videoUrl": "https://youtu.be/REWv05om0ho",
+            "description" : "If you’re targeting the triceps, don’t overdo it on the weights when performing this exercise. Here’s how: \n\n 1. Attach a rope to the cable station’s high pulley. \n\n 2. Grab the handle with an overhand grip, keeping your arms bent and your hands shoulder-width apart. \n\n 3. Tuck your upper arms toward your sides. \n\n 4. Keeping your upper arms fixed in place, push the bar down until your elbows are locked. \n\n 5. Return to the starting position and repeat."
+        },
+        {
+            "id": "24",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Lying Triceps Extension",
+            "imageUrl": "https://www.burnthefatinnercircle.com/members/images/1622b.jpg",
+            "videoUrl": "https://youtu.be/4re6CJ0XNF8",
+            "description" : "This exercise is sometimes known as the skullcrusher and that alone should tell you it’s not for beginners. And while there’s more than one way to perform it (over-the-head vs behind-the-head, for instance), elbow extension remains constant. \n\n After you’ve mastered other tricep workouts and exercises, bring this one into the fold. When you’ve become a true master of your upper domain, perform this tricep exercise and a dumbbell chest press as a superset. \n\n Here’s one variant: \n\n 1. Grabbing the inner grip, press an EZ bar over your chest in the overhand grip position. \n\n 2. Extend your arms straight up. \n\n 3. Keeping your elbows tucked in and your arms perpendicular to the floor, gradually lower the bar until it’s just above your forehead by about an inch. \n\n 4. Slowly bring your arms back to the starting position without locking your elbows."
+        },
+        {
+            "id": "25",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Dips",
+            "imageUrl": "https://fitnessvolt.com/wp-content/uploads/2021/12/Chest-Dips-vs-Triceps-Dips.jpg",
+            "videoUrl": "https://youtu.be/35PXVWP1XVs",
+            "description" : "Here’s another tricep exercise for men who have more experience under their respective belts. It involves using your entire body weight and should be avoided by those with weak shoulders. Start with just 2 sets of 8-10 reps and increase the number of sets and reps as you improve over time. Here we go: \n\n 1. Prop yourself up on the parallel bars, keeping your torso perpendicular to the floor. \n\n 2. Maintaining your original position throughout, bend your knees and cross your ankles. \n\n 3. Lower your body until your shoulder joints are below your elbows or just before you reach that position.\n\n 4. Push back up to the starting position, until your elbows are just short of locked."
+        },
+        {
+            "id": "26",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Diamond Push-Ups",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1588273637239-QAA997U1TA0CGDYOJNUE/Diamond+Push+Ups?format=1000w",
+            "videoUrl": "https://youtu.be/J0DnG1_S92I",
+            "description" : "A semi-strenuous alternative to your standard push-up, you can perform this tricep exercise from the comfort of your own home.  Here’s how: \n\n 1. Assume the push-up position, but with your hands together in a diamond-like formation (i.e. index fingers and thumbs touching). \n\n 2. Keeping your back straight, lower your chest until it almost touches the floor."
+        },
+        {
+            "id": "27",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Bench Dip",
+            "imageUrl": "https://www.burnthefatinnercircle.com/members/images/1093d.png",
+            "videoUrl": "https://youtu.be/jdFzYGmvDyg",
+            "description" : "Unlike the tricep dip, this basic workout doesn’t require copious amounts of muscle or experience. Grab a standard workout bench and perform the following steps:\n\n 1. Stand up and face away from the bench, grabbing it with both hands at shoulder-width. \n\n 2. Keeping your legs straight and extended in front of you, slowly lower your body until your arms and forearms are at 90-degree angles. \n\n 3. Push through at the triceps as you lift back to the starting position."
+        },
+        {
+            "id": "28",
+            "bodyRegion": "Triceps",
+            "exercisesName": "One-Arm Overhead Extension",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1493844683178-DZ1MAYUKOM1HJLTMYKFN/One+Arm+Overhead+Standing+Triceps+Extensions",
+            "videoUrl": "https://youtu.be/jTQWYdWLvys",
+            "description" : "Odds are you’re already doing something like this, making it a fairly simple and approachable tricep exercise. Here’s how to execute: \n\n 1. Sit perfectly upright on a workout bench and grab a dumbbell with one hand. \n\n 2. Holding the dumbbell, lift your arm slightly behind your head with your elbow bent. \n\n 3. Extend your elbow until your arm is straight overhead.\n\n 4. Perform 10 reps with one arm before switching to the other to round out the set."
+        },
+        {
+            "id": "29",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Standard Push-Up",
+            "imageUrl": "https://fitnessvolt.com/wp-content/uploads/2019/04/push-up-750x474.jpg",
+            "videoUrl": "https://youtu.be/IODxDxX7oi4",
+            "description" : "An oldie but goodie, the classic push-up builds strength in your core, chest, and triceps. To crank up that intensity dial, consider bringing in a weight vest. Pardon us while we tell you how to perform an exercise you know all too well: \n\n 1. Keeping your hands beneath your shoulders, your core locked, and your body in a straight line, prop yourself above the floor on your hands and toes. \n\n 2. Lower your body until your chest is just above the ground. \n\n 3. Thrust upward."
+        },
+        {
+            "id": "30",
+            "bodyRegion": "Triceps",
+            "exercisesName": "Straight Arm Cable Pull-Down",
+            "imageUrl": "https://i.pinimg.com/564x/8d/11/98/8d1198dde006d17870791132ed14af61.jpg",
+            "videoUrl": "https://youtu.be/AjCCGN2tU3Q",
+            "description" : "In case the title’s not a dead giveaway, you’ll need a cable machine for this tricep exercise, which forms a superset. Let’s get into it: \n\n 1. Attach a rope to the high pulley of the cable station. \n\n 2. Grab the handle and face away from the machine, keeping your hands even with your shoulders.\n\n 3. Fully extend your arm forward in front of your head. \n\n 4. Return to the starting position.\n\n 5. Repeat for 10-12 reps. \n\n 6. Move directly into a straight arm cable pull-down, which involves grabbing the handle from the top pulley, palms facing one another. \n\n 7. Bend 30 degrees forward at the waist, keeping your arms fully extended. \n\n 8. Pull the bar down until your hands are even with your thighs."
+        },
+        {
+            "id": "31",
+            "bodyRegion": "Triceps",
+            "exercisesName": "incline dumbbell bench press",
+            "imageUrl": "https://fitnessvolt.com/wp-content/uploads/2019/04/incline-dumbbell-bench-press.jpg",
+            "videoUrl": "https://youtu.be/0G2_XV7slIg",
+            "description" : "Here’s another tricep exercise you might already be performing. This is how to get it done: \n\n 1. Position your workout bench at a 45-degree angle.\n\n 2. Lie back on the bench and lift the dumbells to shoulder height, palms facing outward.\n\n 3. Exhale as you simultaneously press up with both arms.\n\n 4. Lock out your arms and contract your chest before slowly returning to the start position."
+        },
+        {
+            "id": "32",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Plank",
+            "imageUrl": "https://i.pinimg.com/564x/28/2e/6a/282e6a726865f314eb6fe15211c81750--core-workouts-workout-routines.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=ZyWEXjdAGCQ&ab_channel=ATHLEAN-X%E2%84%A2",
+            "description" : "An all-time core classic. Hold a straight line from your shoulders to your ankles while supporting yourself on your forearms and toes. \n\n The plank is great for beginners and there is minimal movement so less chance of getting it wrong, says Chamberlain. \n\n  It’s also easy to scale – start at 20-second holds and work up towards 60 seconds. Make sure you engage your core by tilting your pelvis back slightly to flatten your lower back – a curved lower back is to be avoided."
+        },
+        {
+            "id": "33",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Reverse crunch",
+            "imageUrl": "https://i.pinimg.com/originals/e3/5d/4c/e35d4cb5cfbe1747e422c35fd0d482d0.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=yH-oSzE5_g0&ab_channel=Well%2BGood",
+            "description" : "The reverse crunch is even better than the standard crunch for strengthening your abs. The move keeps your muscles under tension for a longer period and hits the tricky-to-target lower abs particularly hard. \n\n Lie down and raise your legs so your thighs are vertical and your knees are bent at a 90° angle. Contract your abs to bring your knees to your chest and raise your hips off the floor, then slowly lower your legs back to the start."
+        },
+        {
+            "id": "34",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Leg raise",
+            "imageUrl": "https://i.pinimg.com/736x/63/c9/77/63c977c568bc962e4c1dbb72a920a0bd.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=JB2oyawG9KI",
+            "description" : "Lie down flat on your back on the ground. Keeping your legs as straight as possible, raise them until they’re vertical or as close as you can get. Lower them and repeat. \n\n This engages your lower abs, and you engage your core by flattening your lower back on the floor, - says Chamberlain. \n\n To make it easier, tuck your knees in and start with your legs raised, then slowly lower them towards the floor. Once you master this, start keeping your legs straight when returning to the top position. \n\n If you feel a niggle in your lower back then place your hands under your buttocks to help keep your lower back flat. Start with sets of five raises and work towards 15."
+        },
+        {
+            "id": "35",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Abs roll-out",
+            "imageUrl": "https://i.pinimg.com/originals/af/c1/e5/afc1e545ea333c549e61a3b7683aff9c.png",
+            "videoUrl": "https://www.youtube.com/watch?v=A3uK5TPzHq8",
+            "description" : "Using an abs roller or a barbell with weight plates on, kneel on a soft surface and grab the roller with your hands just wider than shoulder-width apart, - says Chamberlain. \n\n Start by just slowly rolling the barbell or roller away from your knees. It’s important to have your hips forward so your knees, hips and shoulders all align. Once you have control when rolling away, try to maintain hip and spine position while rolling the weights back in. Try to avoid pushing your hips in the air on the way back because this defeats the purpose of the exercise (although it’s OK to do it when starting out). This is great for improving the strength of your core quickly. Start with five reps and work towards 15."
+        },
+        {
+            "id": "36",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Hanging knee raise",
+            "imageUrl": "http://1bodyweighttraining.com/wp-content/uploads/2018/04/hanging-knee-raises.png",
+            "videoUrl": "https://www.youtube.com/watch?v=iC_fu-XjNPo&ab_channel=JennyLaBaw",
+            "description" : "A precursor to the hanging leg raise (below), this pull-up bar exercise focuses on your lower abs. Hang from a bar or gym rings with an overhand grip, palms facing forwards. Brace your abs and use them to raise your knees to your chest. Pause, then lower slowly."
+        },
+        {
+            "id": "37",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Medicine ball crunch",
+            "imageUrl": "https://weighttraining.guide/wp-content/uploads/2021/10/Medicine-ball-crunch.png",
+            "videoUrl": "https://www.youtube.com/watch?v=1Hf_5_rmaOc&ab_channel=LIVESTRONG.COM",
+            "description" : "Lie on your back with your knees bent and feet flat on the floor. Hold a medicine ball – 6kg to 10kg should be fine – to your chest. Raise your torso off the floor and press the medicine ball above your head with straight arms. To encourage good form, bring your head forwards between your arms and keep your chest up as your torso reaches vertical. Slowly lower under control, keeping your arms extended so the medicine ball touches the floor behind your head. Keep the movement smooth and controlled"
+        },
+        {
+            "id": "38",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Flutter kicks",
+            "imageUrl": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Flutter-Kicks.gif",
+            "videoUrl": "https://youtu.be/ANVdMDaYRts",
+            "description" : "Sometimes known as scissor kicks, this movement will certainly feel like it’s carving out your abs. Lie on your back and raise your legs so that they’re roughly 15cm above the ground. Keeping your legs straight throughout, move your legs up and down in a kicking motion, with the movement coming from your hips. Go at a pace that’s comfortable and allows you to keep your legs off the ground for the duration, and make smooth and controlled movements. Work for between 30 and 60 seconds at a time."
         }
-        
 ]

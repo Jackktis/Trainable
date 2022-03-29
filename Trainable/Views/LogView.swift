@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct LogView: View {
+    var exercises = Bundle.main.decode([ExerciseModel].self, from: "WorkOutExercises.json")
+    var bodyRegions = Bundle.main.decode([StrengthCategoryModel].self, from: "StrengthBodyRegions.json")
+    
     var body: some View {
-        Text("Log").navigationTitle("Log")
+        ScrollView{
+            ForEach(bodyRegions, id: \.id){ bodyregion in
+                    DisclosureGroup(bodyregion.bodyRegion) {
+                        ForEach(exercises, id: \.id){ exercise in
+                            if(exercise.bodyRegion == bodyregion.bodyRegion ){
+                                Text(exercise.exercisesName)
+                            }
+                    }
+                }
+            }.padding()
+        }
     }
 }
 

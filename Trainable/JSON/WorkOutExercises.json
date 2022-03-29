@@ -163,7 +163,7 @@
         {
             "id": "21",
             "bodyRegion": "Traps",
-            "exercisesName": " Rack Pull",
+            "exercisesName": "Seated Dumbbell Lateral Raise",
             "imageUrl": "https://fitnessvolt.com/wp-content/uploads/2019/04/seated-dumbbell-lateral-raise-750x474.jpg",
             "videoUrl": "https://youtu.be/v_ZkxWzYnMc",
             "description" : "Stand tall with a dumbbell in each hand and arms at your sides, palms facing in. Position your feet roughly shoulder-width apart. Raise your arms and lift the dumbbells up and out to each side, stopping when your elbows reach around shoulder-height. Pause and hold for a second at the top of the movement. Control the weight as you return to the starting position."
@@ -243,12 +243,65 @@
         {
             "id": "31",
             "bodyRegion": "Triceps",
-            "exercisesName": "Straight Arm Cable Pull-Down",
+            "exercisesName": "incline dumbbell bench press",
             "imageUrl": "https://fitnessvolt.com/wp-content/uploads/2019/04/incline-dumbbell-bench-press.jpg",
             "videoUrl": "https://youtu.be/0G2_XV7slIg",
             "description" : "Here’s another tricep exercise you might already be performing. This is how to get it done: \n\n 1. Position your workout bench at a 45-degree angle.\n\n 2. Lie back on the bench and lift the dumbells to shoulder height, palms facing outward.\n\n 3. Exhale as you simultaneously press up with both arms.\n\n 4. Lock out your arms and contract your chest before slowly returning to the start position."
+        },
+        {
+            "id": "32",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Plank",
+            "imageUrl": "https://i.pinimg.com/564x/28/2e/6a/282e6a726865f314eb6fe15211c81750--core-workouts-workout-routines.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=ZyWEXjdAGCQ&ab_channel=ATHLEAN-X%E2%84%A2",
+            "description" : "An all-time core classic. Hold a straight line from your shoulders to your ankles while supporting yourself on your forearms and toes. \n\n The plank is great for beginners and there is minimal movement so less chance of getting it wrong, says Chamberlain. \n\n  It’s also easy to scale – start at 20-second holds and work up towards 60 seconds. Make sure you engage your core by tilting your pelvis back slightly to flatten your lower back – a curved lower back is to be avoided."
+        },
+        {
+            "id": "33",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Reverse crunch",
+            "imageUrl": "https://i.pinimg.com/originals/e3/5d/4c/e35d4cb5cfbe1747e422c35fd0d482d0.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=yH-oSzE5_g0&ab_channel=Well%2BGood",
+            "description" : "The reverse crunch is even better than the standard crunch for strengthening your abs. The move keeps your muscles under tension for a longer period and hits the tricky-to-target lower abs particularly hard. \n\n Lie down and raise your legs so your thighs are vertical and your knees are bent at a 90° angle. Contract your abs to bring your knees to your chest and raise your hips off the floor, then slowly lower your legs back to the start."
+        },
+        {
+            "id": "34",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Leg raise",
+            "imageUrl": "https://i.pinimg.com/736x/63/c9/77/63c977c568bc962e4c1dbb72a920a0bd.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=JB2oyawG9KI",
+            "description" : "Lie down flat on your back on the ground. Keeping your legs as straight as possible, raise them until they’re vertical or as close as you can get. Lower them and repeat. \n\n This engages your lower abs, and you engage your core by flattening your lower back on the floor, - says Chamberlain. \n\n To make it easier, tuck your knees in and start with your legs raised, then slowly lower them towards the floor. Once you master this, start keeping your legs straight when returning to the top position. \n\n If you feel a niggle in your lower back then place your hands under your buttocks to help keep your lower back flat. Start with sets of five raises and work towards 15."
+        },
+        {
+            "id": "35",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Abs roll-out",
+            "imageUrl": "https://i.pinimg.com/originals/af/c1/e5/afc1e545ea333c549e61a3b7683aff9c.png",
+            "videoUrl": "https://www.youtube.com/watch?v=A3uK5TPzHq8",
+            "description" : "Using an abs roller or a barbell with weight plates on, kneel on a soft surface and grab the roller with your hands just wider than shoulder-width apart, - says Chamberlain. \n\n Start by just slowly rolling the barbell or roller away from your knees. It’s important to have your hips forward so your knees, hips and shoulders all align. Once you have control when rolling away, try to maintain hip and spine position while rolling the weights back in. Try to avoid pushing your hips in the air on the way back because this defeats the purpose of the exercise (although it’s OK to do it when starting out). This is great for improving the strength of your core quickly. Start with five reps and work towards 15."
+        },
+        {
+            "id": "36",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Hanging knee raise",
+            "imageUrl": "http://1bodyweighttraining.com/wp-content/uploads/2018/04/hanging-knee-raises.png",
+            "videoUrl": "https://www.youtube.com/watch?v=iC_fu-XjNPo&ab_channel=JennyLaBaw",
+            "description" : "A precursor to the hanging leg raise (below), this pull-up bar exercise focuses on your lower abs. Hang from a bar or gym rings with an overhand grip, palms facing forwards. Brace your abs and use them to raise your knees to your chest. Pause, then lower slowly."
+        },
+        {
+            "id": "37",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Medicine ball crunch",
+            "imageUrl": "https://weighttraining.guide/wp-content/uploads/2021/10/Medicine-ball-crunch.png",
+            "videoUrl": "https://www.youtube.com/watch?v=1Hf_5_rmaOc&ab_channel=LIVESTRONG.COM",
+            "description" : "Lie on your back with your knees bent and feet flat on the floor. Hold a medicine ball – 6kg to 10kg should be fine – to your chest. Raise your torso off the floor and press the medicine ball above your head with straight arms. To encourage good form, bring your head forwards between your arms and keep your chest up as your torso reaches vertical. Slowly lower under control, keeping your arms extended so the medicine ball touches the floor behind your head. Keep the movement smooth and controlled"
+        },
+        {
+            "id": "38",
+            "bodyRegion": "Abdominals",
+            "exercisesName": "Flutter kicks",
+            "imageUrl": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Flutter-Kicks.gif",
+            "videoUrl": "https://youtu.be/ANVdMDaYRts",
+            "description" : "Sometimes known as scissor kicks, this movement will certainly feel like it’s carving out your abs. Lie on your back and raise your legs so that they’re roughly 15cm above the ground. Keeping your legs straight throughout, move your legs up and down in a kicking motion, with the movement coming from your hips. Go at a pace that’s comfortable and allows you to keep your legs off the ground for the duration, and make smooth and controlled movements. Work for between 30 and 60 seconds at a time."
         }
-        
-        
-        
 ]

@@ -108,7 +108,7 @@ struct Exercise_DetailView: View {
                 .overlay(RoundedRectangle(cornerRadius: 20)
                     .stroke(Color("Oxford Blue"), lineWidth: 2))
                 .background(RoundedRectangle(cornerRadius: 20).fill(Color("Peach")))
-            
+                
                     
 
             }.padding([.leading, .trailing], 20)

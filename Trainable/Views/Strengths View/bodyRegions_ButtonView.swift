@@ -19,12 +19,12 @@ struct bodyRegions_ButtonView: View {
                         .offset(y:4)
                 }.shadow(color: .black, radius: 2, x: 0, y: 2)
                 
-        }.frame(width: 150, height: 140, alignment: .center)
-            
+            }.frame(minWidth:120, maxWidth: 150, minHeight:110, maxHeight:140, alignment:.center)
+        
             VStack{
                 Text(category.bodyRegion)
                     .BodyRegionTextModifier()
-            }.frame(width: 150, height: 25, alignment: .center)
+            }.frame(minWidth:120, maxWidth: 150, minHeight:25, maxHeight:25, alignment: .center)
                 .background(Color(category.colorIdentity))
             
             }.background(Color("White"))

@@ -42,7 +42,7 @@ extension Text {
 extension Text {
     func BodyRegionTextModifier() -> some View {
             self
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                 .fontWeight(.bold)
                 .scaledToFit()
                 .offset(y:-2)
@@ -126,4 +126,3 @@ struct RoundedCorner: Shape {
         return Path(path.cgPath)
     }
 }
-

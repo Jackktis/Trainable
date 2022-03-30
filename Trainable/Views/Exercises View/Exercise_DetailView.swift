@@ -17,7 +17,7 @@ struct Exercise_DetailView: View {
     @State private var MaxRep: Int = 0
     @StateObject var page: Page = .first()
     var items = Array(0..<2)
-    
+    var colorTitleDetail: String
     var body: some View {
         
         ScrollView(.vertical){
@@ -47,7 +47,7 @@ struct Exercise_DetailView: View {
                 }.padding(.bottom)
                     .frame(maxWidth: .infinity)
                     .border(width: 1, edges: [.bottom,.trailing], color: Color("Oxford Blue"))
-                    .background(Color("Peach"))
+                    .background(Color(colorTitleDetail))
                 
             
                 
@@ -60,7 +60,7 @@ struct Exercise_DetailView: View {
                 }.padding(.bottom)
                     .frame( maxWidth: .infinity)
                 .border(width: 1, edges: [.bottom,.leading], color: Color("Oxford Blue"))
-                .background(Color("Peach"))
+                .background(Color(colorTitleDetail))
                 
                 
                 
@@ -79,8 +79,11 @@ struct Exercise_DetailView: View {
                     TextField("Enter Max weight", value:$maxWeight, formatter: NumberFormatter())
                         .keyboardType(.numberPad)
                         .frame(width: 150)
+                        .background(.thinMaterial)
+                        .background(Color(colorTitleDetail))
                         .textFieldStyle(.roundedBorder)
                         .multilineTextAlignment(.center)
+                    
                 }
                 HStack{
                     Text("Maximum repetitions:")
@@ -89,6 +92,8 @@ struct Exercise_DetailView: View {
                         .keyboardType(.numberPad)
                         .frame(width: 150)
                         .textFieldStyle(.roundedBorder)
+                        .background(.thinMaterial)
+                        .background(Color(colorTitleDetail))
                         .multilineTextAlignment(.center)
                 }.padding(.bottom, 20)
                 
@@ -107,18 +112,20 @@ struct Exercise_DetailView: View {
                 }
                 .overlay(RoundedRectangle(cornerRadius: 20)
                     .stroke(Color("Oxford Blue"), lineWidth: 2))
-                .background(RoundedRectangle(cornerRadius: 20).fill(Color("Peach")))
+                .background(RoundedRectangle(cornerRadius: 20).fill(Color(colorTitleDetail)))
                 
                     
 
             }.padding([.leading, .trailing], 20)
-        }.navigationTitle(exercise.exercisesName)
+        }.background(.thinMaterial)
+            .background(Color(colorTitleDetail))
+        .navigationTitle(exercise.exercisesName)
     }
 }
 
 struct ExerciseDetail_Previews: PreviewProvider {
     var exercise: ExerciseModel
     static var previews: some View {
-        Exercise_DetailView(exercise: ExerciseModel.sampleData[0])
+        Exercise_DetailView(exercise: ExerciseModel.sampleData[0], colorTitleDetail: "Peach")
     }
 }

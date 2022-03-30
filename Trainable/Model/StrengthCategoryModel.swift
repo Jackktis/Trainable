@@ -14,11 +14,13 @@ struct StrengthCategoryModel: Identifiable, Codable{
     var title: String
     var bodyRegion: String
     var bodyRegionImage: String
+    var colorIdentity: String
     
-    init(id: String, title: String , bodyRegion: String, bodyRegionImage: String){
+    init(id: String, title: String , bodyRegion: String, bodyRegionImage: String, colorIdentity:String){
         self.id = id
         self.title = title
         self.bodyRegion = bodyRegion
         self.bodyRegionImage = bodyRegionImage
+        self.colorIdentity = colorIdentity
         }
     }

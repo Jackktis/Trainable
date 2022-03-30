@@ -17,7 +17,7 @@ struct bodyRegions_ButtonView: View {
                         .resizable()
                         .scaledToFit()
                         .offset(y:4)
-                }
+                }.shadow(color: .black, radius: 2, x: 0, y: 2)
                 
         }.frame(width: 150, height: 140, alignment: .center)
             
@@ -25,15 +25,14 @@ struct bodyRegions_ButtonView: View {
                 Text(category.bodyRegion)
                     .BodyRegionTextModifier()
             }.frame(width: 150, height: 25, alignment: .center)
-                .background(Color("Pewter Blue"))
+                .background(Color(category.colorIdentity))
             
             }.background(Color("White"))
-            .shadow(color: .black, radius: 2, x: 0, y: 2)
             .cornerRadius(8)
 }
 
 struct button2try_Previews: PreviewProvider {
-    static let category = StrengthCategoryModel(id: "1", title: "Front", bodyRegion: "Delts & Shoulders", bodyRegionImage: "Delts & Shoulders - front")
+    static let category = StrengthCategoryModel(id: "1", title: "Front", bodyRegion: "Delts & Shoulders", bodyRegionImage: "Delts & Shoulders - front", colorIdentity: "Peach")
     static var previews: some View {
         bodyRegions_ButtonView(category: category)
            }

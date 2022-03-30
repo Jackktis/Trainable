@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ExerciseList_ButtonView: View {
     var exercises: ExerciseModel
+    var colorTitle: String
     var body: some View {
         ZStack(alignment: .bottom){
             AsyncImage(url: URL(string: exercises.imageUrl)) { image in
@@ -23,13 +24,12 @@ struct ExerciseList_ButtonView: View {
             VStack{
                 Text(exercises.exercisesName)
                     .BodyRegionTextModifier()
-                    .shadow(color: .black, radius: 2, x: 0, y: 2)
                     .font(.system(size:20))
                     .frame(maxWidth: .infinity,maxHeight: 30, alignment: .center)
                 
             }
             .padding()
-            .background(Color("Pewter Blue"))
+            .background(Color(colorTitle))
             
             
         }
@@ -43,7 +43,7 @@ struct ExerciseList_ButtonView: View {
     struct ExerciseList_ButtonView_Previews: PreviewProvider {
         static let exercise = ExerciseModel(id: "1", bodyRegion: "Delts & Shoulders", exercisesName: "Arnold Press (Anterior)", imageUrl: "https://s35247.pcdn.co/wp-content/uploads/2018/09/3-2-800x600.png", videoUrl: "https://www.youtube.com/watch?v=mXRhpXwW-gs", description: " ")
         static var previews: some View {
-            ExerciseList_ButtonView(exercises: exercise)
+            ExerciseList_ButtonView(exercises: exercise, colorTitle: "Peach")
                }
     }
 }

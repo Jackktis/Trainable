@@ -3,85 +3,98 @@
             "id": "1",
             "title": "Back",
             "bodyRegion": "Delts & Shoulders",
-            "bodyRegionImage" : "Delts & Shoulders - back"
+            "bodyRegionImage" : "Delts & Shoulders - back",
+            "colorIdentity" : "Back1"
         },
         {
             "id": "2",
             "title": "Back",
             "bodyRegion": "Lats",
-            "bodyRegionImage" : "Lats"
+            "bodyRegionImage" : "Lats",
+            "colorIdentity" : "Back2"
         },
         {
             "id": "3",
             "title": "Back",
             "bodyRegion": "Traps",
-            "bodyRegionImage" : "Traps"
+            "bodyRegionImage" : "Traps",
+            "colorIdentity" : "Back3"
         },
         {
             "id": "4",
             "title": "Back",
             "bodyRegion": "Triceps",
-            "bodyRegionImage" : "Triceps"
+            "bodyRegionImage" : "Triceps",
+            "colorIdentity" : "Back4"
         },
         {
             "id": "5",
             "title": "Front",
             "bodyRegion": "Abdominals",
-            "bodyRegionImage" : "Abdominals"
+            "bodyRegionImage" : "Abdominals",
+            "colorIdentity" : "Front1"
         },
         {
             "id": "6",
             "title": "Front",
             "bodyRegion": "Biceps",
-            "bodyRegionImage" : "Biceps"
+            "bodyRegionImage" : "Biceps",
+            "colorIdentity" : "Front2"
         },
         {
             "id": "7",
             "title": "Front",
             "bodyRegion": "Delts & Shoulders",
-            "bodyRegionImage" : "Delts & Shoulders - front"
+            "bodyRegionImage" : "Delts & Shoulders - front",
+            "colorIdentity" : "Front3"
         },
         {
             "id": "8",
             "title": "Front",
             "bodyRegion": "Obliques",
-            "bodyRegionImage" : "Obliques"
+            "bodyRegionImage" : "Obliques",
+            "colorIdentity" : "Front4"
         },
         {
             "id": "9",
             "title": "Front",
             "bodyRegion": "Pecs & Chest",
-            "bodyRegionImage" : "Pecs & Chest"
+            "bodyRegionImage" : "Pecs & Chest",
+            "colorIdentity" : "Front5"
         },
         {
             "id": "10",
             "title": "Legs",
             "bodyRegion": "Calves",
-            "bodyRegionImage" : "Calves"
+            "bodyRegionImage" : "Calves",
+            "colorIdentity" : "Leg1"
         },
         {
             "id": "11",
             "title": "Legs",
             "bodyRegion": "Glutes",
-            "bodyRegionImage" : "Glutes"
+            "bodyRegionImage" : "Glutes",
+            "colorIdentity" : "Leg2"
         },
         {
             "id": "12",
             "title": "Legs",
             "bodyRegion": "Hamstring",
-            "bodyRegionImage" : "Hamstring"
+            "bodyRegionImage" : "Hamstring",
+            "colorIdentity" : "Leg3"
         },
         {
             "id": "13",
             "title": "Legs",
             "bodyRegion": "Gracilis",
-            "bodyRegionImage" : "Gracilis"
-        }
-        ,
+            "bodyRegionImage" : "Gracilis",
+            "colorIdentity" : "Leg4"
+        },
         {
             "id": "14",
             "title": "Legs",
             "bodyRegion": "Tensor fascia",
-            "bodyRegionImage" : "Tensor fascia Latae"
+            "bodyRegionImage" : "Tensor fascia Latae",
+            "colorIdentity" : "Leg5"
         }
 ]

@@ -25,7 +25,7 @@ struct BodyRegionsListView: View {
                     LazyVGrid(columns: ButtonsInCol, spacing: 20){
                         ForEach(bodyRegions, id: \.id){ category in
                         if(category.title == "Front"){
-                            NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion)){
+                            NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion, colorTitle: category.colorIdentity)){
                             bodyRegions_ButtonView(category: category)
                                 .shadow(color: .black, radius: 2, x: 0, y: 2)
                             }
@@ -42,7 +42,7 @@ struct BodyRegionsListView: View {
                     LazyVGrid(columns: ButtonsInCol, spacing: 20){
                         ForEach(bodyRegions, id: \.id){ category in
                         if(category.title == "Back"){
-                            NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion)){
+                            NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion, colorTitle: category.colorIdentity)){
                             bodyRegions_ButtonView(category: category)
                                 .shadow(color: .black, radius: 2, x: 0, y: 2)
                             }
@@ -60,7 +60,7 @@ struct BodyRegionsListView: View {
                     LazyVGrid(columns: ButtonsInCol, spacing: 20){
                         ForEach(bodyRegions, id: \.id){ category in
                         if(category.title == "Legs"){
-                            NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion)){
+                            NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion,  colorTitle: category.colorIdentity)){
                             bodyRegions_ButtonView(category: category)
                                 .shadow(color: .black, radius: 2, x: 0, y: 2)
                             }

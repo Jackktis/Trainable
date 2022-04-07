@@ -15,6 +15,7 @@
 		5A34AE6227DA6902000842B9 /* JsonBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34AE6127DA6902000842B9 /* JsonBundle.swift */; };
 		5A34AE6427DA695B000842B9 /* UIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34AE6327DA695B000842B9 /* UIFunctions.swift */; };
 		5A353AAD27F434F2001E3652 /* LogDisclosureGroup_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A353AAC27F434F2001E3652 /* LogDisclosureGroup_View.swift */; };
+		5A353AAF27F4B465001E3652 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A353AAE27F4B465001E3652 /* Notes.swift */; };
 		5A614F8427EF2B45006FC375 /* YTPlayer_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A614F8327EF2B45006FC375 /* YTPlayer_view.swift */; };
 		5A614F8627EF2C48006FC375 /* AsyncImage_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A614F8527EF2C48006FC375 /* AsyncImage_view.swift */; };
 		5A614F8B27EF364E006FC375 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = 5A614F8A27EF364E006FC375 /* SwiftUIPager */; };
@@ -43,6 +44,7 @@
 		5A34AE6127DA6902000842B9 /* JsonBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonBundle.swift; sourceTree = "<group>"; };
 		5A34AE6327DA695B000842B9 /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctions.swift; sourceTree = "<group>"; };
 		5A353AAC27F434F2001E3652 /* LogDisclosureGroup_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDisclosureGroup_View.swift; sourceTree = "<group>"; };
+		5A353AAE27F4B465001E3652 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		5A614F8327EF2B45006FC375 /* YTPlayer_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPlayer_view.swift; sourceTree = "<group>"; };
 		5A614F8527EF2C48006FC375 /* AsyncImage_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage_view.swift; sourceTree = "<group>"; };
 		5A614F8D27F321CB006FC375 /* Log_detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log_detailView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			children = (
 				5A6A713427C90980003EB4CF /* StrengthCategoryModel.swift */,
 				5A34AE5B27DA4E3D000842B9 /* ExerciseModel.swift */,
+				5A353AAE27F4B465001E3652 /* Notes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				5A624C0627E164A80024899E /* WorkOutExercises.json in Sources */,
 				5A12558A27E359EE0066DBCA /* bodyRegions_ButtonView.swift in Sources */,
 				5AA3BCFC27BEA74400B86994 /* FoodCategoriesView.swift in Sources */,
+				5A353AAF27F4B465001E3652 /* Notes.swift in Sources */,
 				5A614F8427EF2B45006FC375 /* YTPlayer_view.swift in Sources */,
 				5AA3BCEA27BE730100B86994 /* WorkOutCategoriesView.swift in Sources */,
 				5AA3BCFA27BE770900B86994 /* TabNavView.swift in Sources */,

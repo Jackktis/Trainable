@@ -12,16 +12,16 @@ import AVKit
 
 struct Exercise_DetailView: View {
     var exercise: ExerciseModel
-    
+    @EnvironmentObject var exerciseNotes: Notes
     @State private var maxWeight: Int = 0
-    @State private var MaxRep: Int = 0
+    @State private var maxRep: Int = 0
     @StateObject var page: Page = .first()
     var items = Array(0..<2)
     var colorTitleDetail: String
     var body: some View {
         
         ScrollView(.vertical){
-           
+          //  exerciseNotes.addNote(note: Note.init(id: exercise.id, maxWeight: maxWeight, maxRepetition: maxRep))
             // Pager package
                 Pager(page: page,
                       data: items,
@@ -83,18 +83,24 @@ struct Exercise_DetailView: View {
                         .background(Color(colorTitleDetail))
                         .textFieldStyle(.roundedBorder)
                         .multilineTextAlignment(.center)
+                        .onSubmit {
+                            exerciseNotes.addNote(note: Note.init(id: exercise.id, maxWeight: maxWeight, maxRepetition: maxRep))
+                        }
                     
                 }
                 HStack{
                     Text("Maximum repetitions:")
                     Spacer()
-                    TextField("Enter Max repetitions", value:$MaxRep, formatter: NumberFormatter())
+                    TextField("Enter Max repetitions", value:$maxRep, formatter: NumberFormatter())
                         .keyboardType(.numberPad)
                         .frame(width: 150)
                         .textFieldStyle(.roundedBorder)
                         .background(.thinMaterial)
                         .background(Color(colorTitleDetail))
                         .multilineTextAlignment(.center)
+                        .onSubmit {
+                            exerciseNotes.addNote(note: Note.init(id: exercise.id, maxWeight: maxWeight, maxRepetition: maxRep))
+                        }
                 }.padding(.bottom, 20)
                 
                 VStack(alignment: .leading) {
@@ -120,12 +126,16 @@ struct Exercise_DetailView: View {
         }.background(.thinMaterial)
             .background(Color(colorTitleDetail))
         .navigationTitle(exercise.exercisesName)
+        .onAppear(){
+            maxWeight = exerciseNotes.getMaxWeight(exerciseId: exercise.id)
+            maxRep = exerciseNotes.getMaxRepetitions(exerciseId: exercise.id)
+        }
+        }
     }
-}
-
-struct ExerciseDetail_Previews: PreviewProvider {
-    var exercise: ExerciseModel
-    static var previews: some View {
-        Exercise_DetailView(exercise: ExerciseModel.sampleData[0], colorTitleDetail: "Peach")
-    }
-}
+//
+//struct ExerciseDetail_Previews: PreviewProvider {
+//    var exercise: ExerciseModel
+//    static var previews: some View {
+//        Exercise_DetailView(exercise: ExerciseModel.sampleData[0], colorTitleDetail: "Peach")
+//    }
+//}

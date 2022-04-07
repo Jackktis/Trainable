@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Log_detailView: View {
+    @EnvironmentObject var exerciseNotes: Notes
     var exercise: ExerciseModel
     var body: some View {
         VStack(alignment: .leading) {
@@ -16,11 +17,9 @@ struct Log_detailView: View {
                 .font(.headline)
             Spacer()
             HStack {
-                Text("max weight:")
-                Text("0")
+                Text("max weight: \(exerciseNotes.getMaxWeight(exerciseId: exercise.id))")
                 Spacer()
-                Text("max Repetiontion:")
-                Text("0")
+                Text("max Repetiontion: \(exerciseNotes.getMaxRepetitions(exerciseId: exercise.id))")
             }
             .font(.caption)
         }
@@ -28,10 +27,10 @@ struct Log_detailView: View {
     }
 }
 
-struct Log_detailView_Previews: PreviewProvider {
-    static var previews: some View {
-        Log_detailView(exercise: ExerciseModel.sampleData[0])
-            .background(Color("Aero Blue"))
-            .previewLayout(.fixed(width: 400, height: 60))
-    }
-}
+//struct Log_detailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Log_detailView(exercise: ExerciseModel.sampleData[0])
+//            .background(Color("Aero Blue"))
+//            .previewLayout(.fixed(width: 400, height: 60))
+//    }
+//}

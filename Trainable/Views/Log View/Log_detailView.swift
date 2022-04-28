@@ -24,6 +24,7 @@ struct Log_detailView: View {
             .font(.caption)
         }
         .padding()
+        .accessibilityLabel(exercise.exercisesName)
     }
 }
 

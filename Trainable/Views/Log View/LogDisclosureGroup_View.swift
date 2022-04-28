@@ -25,11 +25,13 @@ struct LogDisclosureGroup_View: View {
                             content: {
                                 ForEach(exercises, id: \.id){ exercise in
                                     if(exercise.bodyRegion == bodyregion.bodyRegion ){
-                                        NavigationLink(destination: Exercise_DetailView(exercise: exercise, colorTitleDetail: bodyregion.colorIdentity)){
+                                        NavigationLink(destination: Exercise_DetailView(exercise: exercise, colorTitleDetail: bodyregion.colorIdentity)
+                                        ){
                                             Log_detailView(exercise: exercise)
                                                 .foregroundColor(Color.black)
                                         }
                                     }
+                                        
                                 }.border(width: 1, edges: [.top], color: Color("Oxford Blue"))
                             },
                             label: {
@@ -40,6 +42,7 @@ struct LogDisclosureGroup_View: View {
                             }
                         ).padding()
                         .background(RoundedRectangle(cornerRadius: 20).fill(Color(bodyregion.colorIdentity)))
+                    .accessibilityLabel(bodyregion.bodyRegion)
                     }
                 }
         }

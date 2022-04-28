@@ -85,7 +85,7 @@ struct Exercise_DetailView: View {
                         .multilineTextAlignment(.center)
                         .onSubmit {
                             exerciseNotes.addNote(note: Note.init(id: exercise.id, maxWeight: maxWeight, maxRepetition: maxRep))
-                        }
+                        }.accessibilityLabel("Weight input")
                     
                 }
                 HStack{
@@ -100,7 +100,7 @@ struct Exercise_DetailView: View {
                         .multilineTextAlignment(.center)
                         .onSubmit {
                             exerciseNotes.addNote(note: Note.init(id: exercise.id, maxWeight: maxWeight, maxRepetition: maxRep))
-                        }
+                        }.accessibilityLabel("Weight repetitions")
                 }.padding(.bottom, 20)
                 
                 VStack(alignment: .leading) {

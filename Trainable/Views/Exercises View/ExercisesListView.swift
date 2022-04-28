@@ -21,6 +21,7 @@ struct ExercisesListView: View {
                         }
                         .navigationTitle(bodyRegion + " exercises")
                         .listRowSeparator(.hidden)
+                        .accessibilityLabel(exercises.bodyRegion)
                         
                     }
                 }.padding(.bottom,2)

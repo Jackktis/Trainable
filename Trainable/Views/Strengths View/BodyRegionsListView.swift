@@ -28,7 +28,7 @@ struct BodyRegionsListView: View {
                             NavigationLink(destination: ExercisesListView(bodyRegion: category.bodyRegion, colorTitle: category.colorIdentity)){
                             bodyRegions_ButtonView(category: category)
                                 .shadow(color: .black, radius: 2, x: 0, y: 2)
-                            }
+                            }.accessibilityLabel(category.bodyRegion)
                         }
                     }
                 }

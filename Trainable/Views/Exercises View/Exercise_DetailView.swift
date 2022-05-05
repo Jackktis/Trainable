@@ -20,8 +20,8 @@ struct Exercise_DetailView: View {
     var colorTitleDetail: String
     var body: some View {
         
+        // https://github.com/fermoya/SwiftUIPager
         ScrollView(.vertical){
-          //  exerciseNotes.addNote(note: Note.init(id: exercise.id, maxWeight: maxWeight, maxRepetition: maxRep))
             // Pager package
                 Pager(page: page,
                       data: items,
